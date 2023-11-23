@@ -44,10 +44,10 @@ import telegram
 
 
 def msg():
-    token ='6864686536:AAF4eZtm7LUkgKAQkz-BI1uKtxt-R_Ntkh8'
+    token ='telegram-token'
     bot =telegram.Bot(token=token)
     public_chat_name='@Lee201911977'
-    id_channel=bot.sendMessage(chat_id=public_chat_name, text="제발 성공하고싶어요(알람)").chat_id
+    id_channel=bot.sendMessage(chat_id=public_chat_name, text="mwssage").chat_id
 
 def job():
     now=datetime.datetime.now(pytz.timezone('Asia/Seoul'))
